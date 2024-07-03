@@ -1,0 +1,96 @@
+{
+    "workbench.colorTheme": "Pitch Black",
+    "tabnine.experimentalAutoImports": true,
+    "editor.mouseWheelZoom": true,
+    "editor.lineHeight": 22,
+    "editor.tokenColorCustomizations": {
+        "[Pitch Black]": {
+            "comments": "#a19f8f",
+            "strings": "#ba69ca",
+            "functions": "#e0e085",
+            "numbers": "#d39f9f",
+            "keywords": "#f7b373",
+            "types": "#3e92e0",
+            "variables": "#5ab18c",
+            "textMateRules": [
+                {
+                    "name": "overrideBlue",
+                    "scope" : [
+                        "support.type.property-name"
+                    ],
+                    "settings": {
+                        "foreground": "#badb5e"
+                    }
+                },
+                {
+                    "name": "overrideBlue2",
+                    "scope" : [
+                        "variable.other.constant"
+                    ],
+                    "settings": {
+                        "foreground": "#c73f3f"
+                    }
+                },
+                {
+                    "name": "overrideBool",
+                    "scope" : [
+                        "constant.language"
+                    ],
+                    "settings": {
+                        "foreground": "#4cdbe6"
+                    }
+                },
+                {
+                    "name": "overideAttributes",
+                    "scope" : [
+                        "entity.other.attribute-name"
+                    ],
+                    "settings": {
+                        "foreground": "#51e64cea"
+                    }
+                },
+                {
+                    "name": "overridePropsCSS",
+                    "scope" : [
+                        "variable.css"
+                    ],
+                    "settings": {
+                        "foreground": "#badb5e"
+                    }
+                }
+            ]
+        }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "CodeGPT.model": "gpt-4",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editorAssociations": {
+        "*.lib": "default"
+    },
+    "chatgpt.lang": "en",
+    "workbench.editorLargeFileConfirmation": 2048,
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.2)",
+        "rgba(127,255,127,0.2)",
+        "rgba(255,127,255,0.2)",
+        "rgba(79,236,236,0.2)"
+    ],
+    "indentRainbow.indentSetter": {},
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.multiCursorLimit": 30000,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "vim.disableExtension": true,
+    "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "[typescriptreact]": {
+        "editor.inlineSuggest.suppressSuggestions": false
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "editor.tabSize": 2
+}

@@ -1,0 +1,123 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"importmockmvcsnippet": {
+		"scope": ["java"],
+		"prefix": "importmockmvcsnippet",
+		"body": [
+			"import org.hamcrest.Matchers;",
+			"import org.junit.jupiter.api.Test;",
+			"import static org.junit.jupiter.api.Assertions.*;",
+			"import static org.springframework.test.web.servlet.MockMvcBuilder.*;",
+			"import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;",
+			"import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;",
+			"import org.springframework.test.web.servlet.MockMvc;"
+		],
+		"description": "Import Mock Mvc Snippet"
+	},
+	"spbt": {
+		"scope": ["java"],
+		"prefix": "spbt",
+		"body": [
+			"import org.junit.jupiter.api.Test;",
+			"import org.springframework.boot.test.context.SpringBootTest;",
+			"",
+			"@SpringBootTest"
+		],
+		"description": "Import Spring Boot Test"
+	},
+	"jul": {
+		"scope": ["java"],
+		"prefix": "jul",
+		"body": [
+			"import java.util.List;",
+		],
+		"description": "Import Java List"
+	},
+	"assertionjuniperimport":{
+		"scope": ["java"],
+		"prefix": "assertionjuniperimport",
+		"body": [
+			"import static org.junit.jupiter.api.Assertions.*;"
+		],
+		"description": "Import Mock Mvc Snippet"
+	},
+	"sae":{
+		"scope": ["php"],
+		"prefix": "sae",
+		"body": [
+			"self::assertEquals()"
+		],
+		"description": "selfAssertion"
+	},
+	"sas":{
+		"scope": ["php"],
+		"prefix": "sas",
+		"body": [
+			"self::assertSame()"
+		],
+		"description": "selfAssertion"
+	},
+	"sans":{
+		"scope": ["php"],
+		"prefix": "sans",
+		"body": [
+			"self::assertNotSame()"
+		],
+		"description": "selfAssertion"
+	},
+	"ap":{
+		"scope": ["php"],
+		"prefix": "ap",
+		"body": [
+			"app->"
+		],
+		"description": "app"
+	},
+	"::":{
+		"scope": ["php"],
+		"prefix": "::",
+		"body": [
+			"::class"
+		],
+		"description": "classType"
+	},
+	"sing":{
+		"scope": ["php"],
+		"prefix": "sing",
+		"body": [
+			"\\$this->app->singleton($0);"
+		],
+		"description": "singleton"
+	},
+	"inst":{
+		"scope": ["php"],
+		"prefix": "inst",
+		"body": [
+			"\\$this->app->instance($0);"
+		],
+		"description": "instance"
+	},
+	"bind":{
+		"scope": ["php"],
+		"prefix": "bind",
+		"body": [
+			"\\$this->app->bind($0);"
+		],
+		"description": "bind"
+	},
+	"make":{
+		"scope": ["php"],
+		"prefix": "make",
+		"body": [
+			"\\$this->app->make($0);"
+		],
+		"description": "bind"
+	},
+
+}

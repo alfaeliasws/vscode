@@ -1,0 +1,93 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "extension.formatJSON"
+    },
+    {
+        "key": "ctrl+shift+alt+v",
+        "command": "toggleVim"
+    },
+    {
+        "key": "ctrl+k ctrl+f1",
+        "command": "ahk++.openHelp",
+        "when": "editorLangId == 'ahk' || editorLangId == 'ahk2'"
+    },
+    {
+        "key": "ctrl+f1",
+        "command": "-ahk++.openHelp",
+        "when": "editorLangId == 'ahk' || editorLangId == 'ahk2'"
+    },
+    {
+        "key": "ctrl+alt+1",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+p ctrl+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+j ctrl+j",
+        "command": "spaceBlockJumper.moveDown"
+    },
+    {
+        "key": "ctrl+j ctrl+k",
+        "command": "spaceBlockJumper.moveUp"
+    },
+    {
+        "key": "ctrl+j ctrl+shift+j",
+        "command": "spaceBlockJumper.selectDown"
+    },
+    {
+        "key": "ctrl+k ctrl+shift",
+        "command": "spaceBlockJumper.selectUp"
+    },
+    {
+        "key": "ctrl+k ctrl+h",
+        "command": "cursorWordPartLeft"
+    },
+    {
+        "key": "ctrl+k alt+h",
+        "command": "cursorWordPartLeftSelect"
+    },
+    {
+        "key": "ctrl+k ctrl+l",
+        "command": "cursorWordPartRight"
+    },
+    {
+        "key": "ctrl+k alt+l",
+        "command": "cursorWordPartRightSelect"
+    },
+    {
+        "key": "ctrl+k ctrl+g",
+        "command": "cursorWordPartStartLeft"
+    },
+    {
+        "key": "ctrl+k alt+g",
+        "command": "cursorWordPartStartLeftSelect"
+    },
+    {
+        "key": "ctrl+k ctrl+;",
+        "command": "deleteWordPartLeft"
+    },
+    {
+        "key": "ctrl+k ctrl+'",
+        "command": "deleteWordPartRight"
+    }
+]

@@ -86,11 +86,19 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
     "vim.disableExtension": true,
+    "editor.fontLigatures": true,
     "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
     "CodeGPT.apiKey": "CodeGPT Plus Beta",
     "[typescriptreact]": {
         "editor.inlineSuggest.suppressSuggestions": false
     },
     "git.openRepositoryInParentFolders": "never",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.minimap.renderCharacters": false,
+    "settingsSync.ignoredSettings": [
+
+    ],
+    "editor.cursorSmoothCaretAnimation": "on",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500
 }

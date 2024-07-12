@@ -89,5 +89,13 @@
     {
         "key": "ctrl+k ctrl+'",
         "command": "deleteWordPartRight"
+    },
+    {
+        "key": "ctrl+j ctrl+e",
+        "command": "codegpt.selectionCodeGPT"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-codegpt.selectionCodeGPT"
     }
 ]
